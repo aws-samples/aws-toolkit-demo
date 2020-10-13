@@ -1,0 +1,22 @@
+{
+  "name": "metadata-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/node": "^14.14.5",
+    "@types/mysql": "^2.15.15"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^1.0.0-rc.3",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/image-processor/image-processor.iml" filepath="$PROJECT_DIR$/image-processor/image-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image-resizer/image-resizer.iml" filepath="$PROJECT_DIR$/image-resizer/image-resizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infra/infra.iml" filepath="$PROJECT_DIR$/infra/infra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metadata-storage/metadata-storage.iml" filepath="$PROJECT_DIR$/metadata-storage/metadata-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/software.aws.beer.web.iml" filepath="$PROJECT_DIR$/.idea/modules/software.aws.beer.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/software.aws.beer.web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/software.aws.beer.web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/software.aws.beer.web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/software.aws.beer.web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/web.test.iml" />
+    </modules>
+  </component>
+</project>

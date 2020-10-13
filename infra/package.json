@@ -1,0 +1,40 @@
+{
+  "name": "beerid",
+  "version": "0.1.0",
+  "bin": {
+    "beerid": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "npm run build && cdk deploy"
+  },
+  "devDependencies": {
+    "@types/node": "10.17.5",
+    "aws-cdk": "^1.73.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.73.0",
+    "@aws-cdk/aws-cloudfront-origins": "^1.73.0",
+    "@aws-cdk/aws-ec2": "^1.73.0",
+    "@aws-cdk/aws-ecr-assets": "^1.73.0",
+    "@aws-cdk/aws-ecs": "^1.73.0",
+    "@aws-cdk/aws-ecr": "^1.73.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.73.0",
+    "@aws-cdk/aws-iam": "^1.73.0",
+    "@aws-cdk/aws-lambda": "^1.73.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.73.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.73.0",
+    "@aws-cdk/aws-lambda-python": "^1.73.0",
+    "@aws-cdk/aws-rds": "^1.73.0",
+    "@aws-cdk/aws-s3": "^1.73.0",
+    "@aws-cdk/aws-secretsmanager": "^1.73.0",
+    "@aws-cdk/aws-sns": "^1.73.0",
+    "@aws-cdk/aws-sqs": "^1.73.0",
+    "@aws-cdk/core": "^1.73.0",
+    "source-map-support": "^0.5.16"
+  }
+}

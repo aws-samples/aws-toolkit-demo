@@ -1,0 +1,20 @@
+*.js
+!infra/jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Parcel build directories
+.cache
+.build
+
+*.iml
+*.DS_Store
+
+**/.aws-sam
+
+.idea/
+.parcel-cache/

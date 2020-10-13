@@ -1,0 +1,19 @@
+{{> header}}
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Is Beer?</th>
+            <th scope="col">Style</th>
+        </tr>
+    </thead>
+    {{#things}}
+        <tr>
+            <td scope="row"><img src="https://{{cdn}}/{{imagePath}}" alt="image" class="rounded img-thumbnail" style="width: 200px"/></td>
+            <td>{{#isBeer}}Yes!{{/isBeer}}{{^isBeer}}No :({{/isBeer}}</td>
+            <td>{{#style}}{{style}}{{/style}}</td>
+        </tr>
+    {{/things}}
+</table>
+
+{{> footer}}

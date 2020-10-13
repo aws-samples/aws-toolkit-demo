@@ -1,0 +1,32 @@
+<script>
+Dropzone.options.upload = {
+    createImageThumbnails: false,
+    maxFilesize: 10,
+    success: function (file, response) {
+          file.previewElement.innerHTML = "";
+     }
+}
+</script>
+<style>
+    .dz-clickable {
+        border: 2px dashed blue;
+        text-align: center;
+        background-color:rgba(0,0,0,.05);
+        height: 200px;
+        padding-top: 40px;
+    }
+    button {
+        border: none;
+        background-color: none;
+        background: none;
+    }
+</style>
+<section style="padding: 1.4rem 1.4rem 2.8rem 1.4rem; display: block;">
+<div id="dropzone">
+<form action="/upload" class="dropzone" id="upload">
+
+</form>
+</div>
+</section>
+</body>
+</html>
