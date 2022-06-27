@@ -16,7 +16,7 @@
     "@types/mysql": "^2.15.15"
   },
   "dependencies": {
-    "@aws-sdk/client-secrets-manager": "^1.0.0-rc.3",
+    "@aws-sdk/client-secrets-manager": "3.x",
     "mysql": "^2.18.1"
   }
 }
