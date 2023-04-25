@@ -23,7 +23,7 @@
     "@aws-cdk/aws-ecr-assets": "^1.73.0",
     "@aws-cdk/aws-ecs": "^1.73.0",
     "@aws-cdk/aws-ecr": "^1.73.0",
-    "@aws-cdk/aws-ecs-patterns": "^1.73.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.161.0",
     "@aws-cdk/aws-iam": "^1.73.0",
     "@aws-cdk/aws-lambda": "^1.73.0",
     "@aws-cdk/aws-lambda-event-sources": "^1.73.0",
